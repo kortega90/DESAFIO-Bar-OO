@@ -27,7 +27,7 @@ public class Program {
 		bill.barbecue = sc.nextInt();
 		
 		System.out.println("RELATÓRIO:");
-		
+		System.out.printf("Consumo = %.2f%n",bill.cover());
 	
 	}
 
